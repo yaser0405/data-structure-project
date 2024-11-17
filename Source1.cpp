@@ -8,7 +8,8 @@ private:
 	int* array;
 	int size;
 public:
-	Array(int* arr, int s) {
+	Array(int* arr, int s) 
+	{
 		size = s;
 		array = new int[size];
 		for (int i = 0; i < size; ++i)
@@ -33,6 +34,7 @@ public:
 	}
 
 };
+
 
 int main()
 {
@@ -59,7 +61,6 @@ int main()
 	}
 }
 
-//hello 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
