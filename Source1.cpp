@@ -7,7 +7,7 @@ class Array {
 private:
 	int* array;
 	int size;
-	int main_size;
+	int main_size;0
 public:
 	Array(int* arr, int s, int ms) {
 		size = s;
@@ -120,7 +120,6 @@ int main()
 		if (i != 0)
 		{
 			size++;
-
 		}
 	}
 	cout << size << endl;
@@ -145,7 +144,6 @@ int main()
 		x.Insert(index, value);
 		x.ViewArray();
 		cout << endl;
-
 	}
 	if (input > size - 1)
 	{
@@ -156,7 +154,6 @@ int main()
 		x.Delete_By_Index(input);
 		x.ViewArray();
 		cout << endl;
-
 	}
 	cout << x.Delet_By_Value(value);
 	cout << endl;
@@ -165,10 +162,6 @@ int main()
 	x.Append(value);
 	x.ViewArray();
 	cout << endl;
-
-
-
-
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
